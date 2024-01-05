@@ -1,0 +1,977 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    overflow-x: hidden !important;
+}
+span, a {
+    display: inline-block;
+}
+.imgg {
+    width: 100%;
+}
+.box3big1 {
+    width: 100%;
+    background-color: white;
+}
+.box1 {
+    background-image: url(backround1.jpg);
+}
+.img1 {
+    max-width: 180px;
+    box-shadow: 20px 20px gray;
+    margin: 20px;
+}
+.big1 {
+    display: flex;
+    justify-content: space-around;
+}
+.icon1 {
+    font-size: 50px;
+}
+.icons {
+    color: white;
+    margin-top: 60px;
+}
+.a1 {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+    margin-top: 20px;   
+    margin-left: 10px;
+}
+.big2h1 {
+    margin-top: 50px;
+}
+.h2 {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+.h2 {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+.p1 {
+    color: rgb(74, 146, 218);
+    text-align: center;
+    font-size: 50px;
+}
+.pas1 {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    padding: 30px;
+}
+.icons2 {
+    color: white;
+    margin: 20px;
+}
+.box2 {
+    background-color: dodgerblue;
+    padding: 100px;
+}
+.box2h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.icons3 {
+    color: white;
+}
+.div {
+    display: block;
+}
+.icon3 {
+    width: 40px;
+    margin-left: 80px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid white;
+    padding: 20px
+}
+.box2h1 {
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.box2big2 {
+    display: flex;
+    justify-content: center;
+}
+.div1 {
+    padding: 50px;
+    margin-top: 100px;
+}
+.h4 {
+    padding: 10px;
+}
+.box3 {
+    background-color: gray;
+    color: white;
+    display: flex;
+}
+.div3 {
+    width: 700px;
+    padding: 50px;
+    margin-top: 100px;
+}
+.bigP {
+    margin-top: 50px;
+}
+.p5 {
+    margin-top: 20px;
+}
+.box3img1 {
+    width: 100%;
+}
+.box3big1 {
+    display: flex;
+}
+.box4 {
+    background-color: white;
+}
+.box4h1 {
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    color: white;
+}
+.box4p1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.yozuv1 {
+    width: 270px;
+    text-align: center;
+}
+.box4h2 {
+    color: dodgerblue;
+}
+.box4big2 {
+    padding: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+.box4big3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box5 {
+    background-color:dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+.icon4{
+    font-size: 90px;
+}
+.p88{
+    width: 400px;
+    margin: 20px;
+}
+
+.box5p1 {
+    width: 500px;
+    font-size: 20px;  
+}
+.box5big1 {
+    display: flex;
+    padding:50px;
+
+}
+.box6 {
+    padding: 50px;
+    display: flex;
+    background-image: url(workplace.jpg);
+    color: white;
+}
+.box6big1 {
+    width: 900px;
+    margin-top: 100px;
+}
+.box6p1 {
+    width: 400px;
+}
+
+.btn1 {
+    margin-top: 20px;
+}
+.btn2 {
+    width: 180px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+.btn3 {
+    margin-top: 20px;
+}
+.btn4 {
+    text-align: left;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+}
+.btn5 {
+    margin-top: 20px;
+}
+.box4big3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+.btn6 {
+    width: 210px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+.box6img2 {
+    width: 300px;
+}
+.box7img1{
+    width: 250px;
+}
+.box7big1 {
+    text-align: center;
+    padding: 40px;
+}
+.box7 {
+    background-color:   white;
+}
+.box7p1 {
+    margin-top: 70px;
+}
+.box7big2 {
+    width: 600px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+.bigger {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+}
+.name {
+    height: 400px;
+    width: 270px;
+    position: absolute;
+    top:85%;
+    left: 23%;
+}
+.name2 {
+    background-color: white;
+    justify-content: center;
+    width: 200px;
+}
+.box7h1 {
+    font-size: 50px;
+}
+.box7p1 {
+    font-size: 20px;
+}
+.box8 {
+    background-image: url(workplace.jpg);
+}
+.inputs {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.input2 {
+    margin: 100px;
+}
+.input {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.input4 {
+    width: 700px;
+    height: 200px;
+}
+.btnpas {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.btnblue {
+    background-color: aqua;  
+    padding: 5px;
+    border-radius: 10px;
+}
+.p99 {
+    margin-top: 300px;
+}
+.box9 {
+    background-image: url(backround1.jpg);
+}
+.box5big1 {
+    width: 450px;
+}
+.imgg1 {
+    width: 100%;
+}
+.imgg {
+    width: 100%;
+    
+}
+.div3 {
+    width: 1350px;
+    height: 100%;
+}
+.div32 {
+    width: 950px;
+    height: 100%;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    width: 1350px;
+}
+.box4h1 {
+    color: black;
+}
+
+@media (max-width: 1300px) and (min-width: 1200px){
+    .bigger {
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: center;
+    }
+    .name {
+        height: 400px;
+        width: 270px;
+        position: absolute;
+        top:85%;
+        left: 33%;
+    }
+    .imgg1 {
+        width: 100%;   
+        height: 100%; 
+    }
+    .imgg {
+        width: 100%;    
+    }
+    .box3img1 {
+        width: 100%;
+    }
+    .div3{
+        width: 100%;
+        height: 100%;
+    }
+    .div32{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 1350px) and (min-width: 1200px){
+    .div3{
+        width: 1200px;
+    }
+    .div32{
+        width: 1250px;
+        height: 100%;
+    }
+    .imgg1 {
+        height: 100%;
+    }
+    .a1{
+        width: 100px;  
+    }
+    .div1{
+        width: 200px;
+        margin: 50px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 1000px){
+    .big1{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .box4big2 {
+        width: 200px;
+        margin: 30px;
+    }
+    .box4img2{
+        width: 200px;
+    }
+    .box4p2{
+        width: 200px;
+        margin-left: 25px;
+    }
+    .img1{
+        width: 80px;
+    }
+    .box4big3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box2h2 {
+        justify-content: center;
+    }
+    .a1{
+        font-size: 30px;
+        width: 100px;
+    }
+    .icons{
+        margin-top: 30px;
+    }
+    .h2{
+        font-size: 80px;
+        transition: 0.3s;
+    }
+    .p1{
+        font-size: 25px;
+    }
+    .box2h2{
+        font-size: 25px;
+        margin-left: 100px;
+    }
+    .div1{
+        
+        font-size: 15px;
+        width: 200px;
+        margin: 0;
+        margin-right: 10px;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .icon3{
+        margin-left: 0;
+    }
+    .box4h1{
+        font-size: 25px;
+    }
+    .box4p1{
+        font-size: 25px;
+    }
+    .box2big2{
+        justify-content: center;
+        /* flex-wrap: wrap; */
+    }
+    .box5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box6h2 {
+        width: 200px;
+    }
+    .box6p1 {
+        width: 200px;
+    }
+    .box6img2 {
+        width: 250px;
+    }   
+    .box6big1 {
+        padding: 0;
+    }
+    .box6p1 {
+        width: 400px;
+    }
+    .box6h2 {
+        width: 300px;
+    }
+    .bigger {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input4 {
+        width: 400px;
+        height: 100px;
+    }
+    .box2big1 {
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 600px;
+        display: flex;
+    }
+    .box7big2 {
+        width: 400px;
+    }
+    .box3img1 {
+        width: 100%;
+    }
+    .div3{
+        width: 1100px;
+    }
+    .div32{
+        width: 1100px;
+        margin-top: 50px;
+    }
+    .imgg1{
+        width: 100%;
+        height:100%;
+    }
+    .imgg{
+        height: 100%;
+        width: 100% ;
+    }
+}
+@media (max-width: 1250px) and (min-width: 1000px){
+    .div3{
+        width: 1100px;
+    }
+    .div32{
+        width: 1100px;
+    }
+    .div1{
+        margin: 30px;
+    }
+}
+@media (max-width: 1100px) and (min-width: 1000px){
+    .a1{
+        width: 100px;
+    }
+    .box2big1 {
+        font-size: 20px;
+        flex-wrap: wrap;
+        width: 600px;
+        display: flex;
+    }
+    .imgg{
+        width: 100%;
+        height: 100%;
+    }
+    .imgg1{
+        width: 100%;
+        height: 100%;
+    }    
+    .div3{
+        width: 950px;
+        margin-top: 0px;
+        margin: 0px;
+    }
+    .div32{
+        width: 950px;
+        margin-top: 0px;
+    }
+    .div1{
+        width: 150px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 800px){
+    .a1{
+        width: 100px;
+    }
+    .icon1 {
+        font-size: 50px;
+        display: none;
+    }
+    .box2big2 {
+        margin-left: -180px;
+        width: 700px;
+    }
+    .icon3{
+        margin-left: 0px;
+    }
+    .div1 {
+        width: 400px;
+         margin: 0;
+         margin-right: 10px;
+         align-items: center;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+    }
+    .big1{
+        align-items: center;
+        justify-content: space-around;
+    }
+    img {
+        width: 400px;
+    }
+    .img1{
+        width: 75px;
+    }
+    .a1{
+        font-size: 25px;
+    }
+    .box2h2 {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .icons{
+        margin-top: 30px;
+    }
+    .img {
+        width: 300px;
+    }
+    .h2{
+        font-size: 75px;
+        transition: 0.3s;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .box2h2{
+        font-size: 20px;
+    }
+    .div1{
+        font-size: 20px;
+        width: 50px;
+        padding: 100px;
+        font-size: 15px;
+    }
+    .box3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box2big2{
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }
+    .box3big1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box4h1{
+        font-size: 20px;
+    }
+    .box4p1{
+        font-size: 20px;
+    }
+    .box4big2 {
+        width: 400px;
+    }
+    .box4big3{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box4img2 {
+        width: 300px;
+    }
+    .box5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box6h2 {
+        width: 100px;
+    }
+    .box6p1 {
+        width: 100px;
+    }
+    .box6img2 {
+        width: 300px;
+    }
+    .box6h2 {
+        width: 400px;
+    }
+    .box6p1 {
+        width: 400px;
+    }
+    .bigger {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputs {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 700px;
+        margin-left: 70px;
+    }
+    .input4 {
+        width: 400px;
+        height: 100px;
+    }
+    .name {
+        position: absolute;
+        top:85%;
+        left: 20%;
+    }
+    .box7img1 {
+        width: 250px;
+    }
+    .box7big2{
+        width: 400px;
+    }
+    .box2big1 {
+        flex-wrap: wrap;
+        display: flex;
+        margin-left: 200px;
+    }
+}
+@media (max-width: 800px) and (min-width: 700px){
+    .box5{
+        flex-wrap: wrap;
+    }
+    .h2{
+        font-size: 70px;
+    }  
+    .p1{
+        font-size: 30px;
+    }
+    .icon1 {
+          font-size: 50px;
+          display: none;
+      } 
+      .box2h2{
+           margin-left: -70px;
+       }
+       .box4big2{
+          width: 300px;
+          font-size: 15px;
+       }
+       .box4img2{
+          width: 200px;
+       }
+       .box7big2 {
+          width: 300px;
+       }
+       .name {
+          height: 400px;
+          width: 270px;
+          position: absolute;
+          top:85%;
+          left: 25%;
+      }
+      .inputs {
+          width: 500px;
+      }
+      .imgg{
+        width: 100%;
+        height: 100%;
+      }
+      .imgg1{
+        width: 100%;
+        height: 100%;
+      }
+      .div3{
+        width: 700px;
+      }
+      .div32{
+        width: 700px;
+      }
+      .div1{
+        margin: 0px;
+      }
+      .box2big2{
+        width: 800px;
+        flex-wrap: wrap;
+        margin-left:-150px;
+      }
+      .inputs{
+        /* flex-wrap: wrap; */
+        width: 30px;
+        margin-left: 380px;
+      }
+      .input4{
+        width: 500px;
+        height: 100px;
+      }
+      .bigger{
+        flex-wrap: wrap;
+      }
+      .img1{
+        width: 100px;
+        height: 100px;
+      }
+      .a1{
+        font-size: 20px;
+        width: 50px;
+        margin-right: 100px;
+      }
+}
+@media (max-width: 700px) {
+    .p88{
+        width: 300px;
+    }
+    .icon1 {
+        font-size: 50px;
+        display: none;
+    }
+    .name {
+        height: 400px;
+        width: 270px;
+        position: absolute;
+        top: 85%;
+        left: 23%;
+    }
+    .list1 {
+        color: white;
+    }
+    .a {
+        display: none;
+    }
+    .box2big2 {
+        margin-left: 0;
+    }
+    .box2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 30px 50px;
+    }
+    .big1{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .img1{
+        width: 35px;
+    }
+    .box2h2 {
+        justify-content: center;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    .a1{
+        font-size: 18px;
+    }
+    .icons{
+        margin-top: 15px;
+    }
+    .icon4{
+        padding-right: 40px;
+    }
+    .box4big3 {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .box4img2{
+        width: 200px;
+    }
+    .box4big2{
+        font-size: 10px;
+        width:300px;
+    }
+    .h2{
+        font-size: 50px;
+        transition: 0.3s;
+    }
+    .p1{
+        font-size: 10px;
+    }
+    .div1{
+        font-size: 105px;
+        width: 225px;
+        padding: 10px 30px;
+    }
+    .box3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box3big1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div3{
+        width:350px;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 100%;
+    }
+    .box4h1{
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+    .box4p1{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .box2big2{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .icon3{
+        margin-left: 0;
+        width: 20px !important;
+        height: 20px !important;
+    }
+    .box2big2 .div1{
+        margin-top: 0;
+    }
+    .box2h1{
+        width: 100%;
+    }
+    .box5 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box6{
+        flex-wrap: wrap;
+    }
+    .box6h2 {
+        width: 100%;  
+    }
+    .box6p1 {
+        width: 100%;
+    }
+    .box6img2 {
+        width: 200px;
+        margin-top: 30px;
+    }
+    .bigger {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .inputs {
+        /* flex-wrap: wrap; */
+        justify-content: center;
+    }   
+    .input1{
+        width: 100px;
+    }
+    .input2{
+        width: 100px;
+    }
+    .input4 {
+        width: 300px;
+        height: 100px;
+        margin-top: 50px;
+    }
+    .box5big1{
+        width: 450px;
+        display: flex;
+        align-items: center;
+    }
+    .p4 {
+        font-size: 20px;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .box7img1{
+        width: 250px;
+    }
+    .box7big2{
+        width: 300px;
+    }
+    .name {
+        height: 400px;
+        width: 270px;
+        position: absolute;
+        top:85%;
+        left: 25%;
+    }
+    .div3{
+        width: 950px;
+        margin-top: 0px;
+        margin: 0px;
+    }
+}
