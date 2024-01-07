@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.img {
+    max-width: 100%; 
+}
+.span, a {
+    display: inline-block;
+}
+.box {
+    background-color: silver;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+   background-color: green;
+    color: white;
+    border: none;
+    padding: 20px;
+}
+.box2 {
+    display: none;
+    position: absolute;
+}
+.p {
+    background-color: yellow;
+    border: solid yellow 2px;
+   
+    padding: 10px 20px;
+}
+.big1:hover .box2 {
+   display: block;
+}
