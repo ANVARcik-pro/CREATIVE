@@ -10,40 +10,23 @@ img {
 span, a {
     display: inline-block;
 }
-.img1 {
-    width: 230px;
+.big {
+    font-size: 60px;
+    background-color: yellow;
+    text-align: center;
 }
-.container {
-    display: flex;
-}
-.img2 {
-    width: 400px;
-}
-.box2 {
-    padding: 10px;
-}
-.box1 {
-    padding: 10px;
-}
-.p1 {
-    width: 270px;
-}
-.icon {
-    color: white;
-}
-.btn1 {
-    color: white;
+.btn {
+    font-size: 50px;
+    color: yellow;
     background-color: black;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
 }
-.img1:hover {
-    transform: scale(1.1);
+.new1 {
+    color: black;
+    background-color: green;
 }
-.img1 {
-    transition: 0.1s all linear;
-}
-.img2:hover {
-    transform: scale(1.1);
-}
-.img2 {
-    transition: 0.1s all linear;
+.new2 {
+    text-align: center; 
 }
